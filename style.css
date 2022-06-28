@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-*,a{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,6 +49,12 @@ html,body{
     padding-left: 30%;
     padding-right: 30%;
 }
+
+a{
+    width: 20em;
+    color: white;
+}
+
 
 @media screen and (max-width: 900px){
     .hero h2{
